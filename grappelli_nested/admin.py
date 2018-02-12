@@ -386,7 +386,7 @@ class NestedInlineModelAdmin(InlineModelAdmin):
             yield inline.get_formset(request, obj)
 
 class NestedStackedInline(NestedInlineModelAdmin):
-    template = 'admin/edit_inline/stacked.html'
+    template = 'admin/grappelli_nested/edit_inline/stacked.html'
 
 class NestedTabularInline(NestedInlineModelAdmin):
-    template = 'admin/edit_inline/tabular.html'
+    template = 'admin/grappelli_nested/edit_inline/tabular.html'
