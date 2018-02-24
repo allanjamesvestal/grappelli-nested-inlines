@@ -103,7 +103,6 @@
                 if (!e.isDefaultPrevented() && prefixMatches(nestedPrefix)) {
                     initializeFormset(nestedPrefix);
                     e.preventDefault();
-                    $formsetGroupWrapper.unbind(INITIALIZE_INLINE_EVENT_NAME);
                 }
             });
         }
